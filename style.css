@@ -1,7 +1,7 @@
 *{
     margin: 0; 
     padding: 0; 
-    font-family: sans-serif;  
+    font-family:'Roboto', sans-serif;  
 }
 
 
@@ -32,7 +32,7 @@ div img{
 }
 
 header{
-    background-color:#1d868c; 
+    background-color: #ff793f; 
     height: 100px; 
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ header .menu{
 }
 
 .apresentacao{
-    height: 100vh;
+    height: 550px;
     align-items: center;
     justify-content: space-between;
 }
@@ -66,13 +66,13 @@ header .menu{
 }
 
 .texto-apresentacao h1{
-    color: #1d868c;
+    color: #474787;
     font-size: 48px;
     margin-bottom: 10px;
 }
 
 .btn{
-    background-color: #1d868c;
+    background-color: #474787;
     color: #fff;
     text-align: center;
     border-radius: 30px;
@@ -98,7 +98,7 @@ header .menu{
 
 #quem-somos h2{
     font-size: 32px;
-    color: #1d868c;
+    color: #474787;
     display: flex;
     margin-bottom: 20px;
     align-items: center;
@@ -109,7 +109,7 @@ header .menu{
     height: 50px;
     width: 5px;
     margin-right: 5px;
-    background-color: #1d868c;
+    background-color: #474787;
     position: relative;
 }
 
@@ -122,8 +122,8 @@ header .menu{
     min-width: 420px;
 }
 
-.container-externo{
-    background-color: #1d868c;
+.container-externo{  
+    background-color:#ff793f ;
     width: 100%;
 }
 
@@ -149,18 +149,16 @@ header .menu{
 }
 
 .item-servico a{
-    width: 220px;
+
     background-color: #fff;
     border-radius: 30px;
     height: 50px;
     text-align: center;
     margin-top: 20px;
-    line-height: 50px;
-    padding: 5px 10px;
-    color: #1d868c;
-    font-size: 12px;
+    line-height: 70px;
+    padding: 15px 30px;
+    color: #84817a;
     text-decoration: none;
-    font-weight: 700;
 }
 
 .item-servico p{
@@ -175,15 +173,15 @@ header .menu{
     margin: auto;
 }
 
-#planos{
+#planos {
     flex-direction: column;
-    min-height: 80vh;
+    height: 550px;
     padding-top: 50px;
-    
 }
 
-#planos h2{
+#planos h2 {
     font-size: 32px;
+    color: #2c2c54;
 }
 
 .list-planos{
@@ -194,10 +192,17 @@ header .menu{
 
 .item-plano{
     flex: 1;
-    border: 5px solid #1d868c;
+    border-radius: 10px;
+    border: 1px solid #fff;
     margin-right: 20px;
     padding: 10px;
     max-width: 240px;
+    height: 100%;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
+}
+.titulo-planos{
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .item-plano .btn{
@@ -211,13 +216,14 @@ header .menu{
     flex-direction: column;
     text-align: center;
     margin-top: 20px;
+    color: #2c2c54;
 }
 
 .item-plano h3::after{
     content: "";
-    background-color: #1d868c;
+    background-color: #706fd3;
     width: 100%;
-    height: 3px;
+    height: 1px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -239,12 +245,12 @@ header .menu{
     content: "";
     width: 10px;
     height: 10px;
-    background-color: #1d868c;
+    background-color:#706fd3;
     margin-right: 5px;
 }
 
 footer{
-    background-color: #1d868c;
+    background-color: #ff793f;
     height: 70px;
     display: flex;
     align-items: center;
